@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Selenium Demo Page!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Lets start with Selenium!
+			</h3>
+			<br>
+			<h4>
+				Why selenium?
+			</h4>
+			</br>
+			<p>
+				Selenium is open source tool, which help us to automate the test.
+				<br>
+				<a  target="_blank" href="https://www.selenium.dev/">For more details click here »</a>
+				</br>
+			</p>
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+				 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+				</button> 
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						
+						<li class="nav-item dropdown">
+							 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="http://example.com" data-toggle="dropdown">Dropdown link</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								 <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+								<div class="dropdown-divider">
+								</div> <a class="dropdown-item" href="#">Separated link</a>
+							</div>
+						</li>
+						
+					</ul>
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="text"> 
+						<button class="btn btn-primary my-2 my-sm-0" type="submit">
+							Search
+						</button>
+					</form>
+					<br></br>
+					<iframe src="frame.html" style="height:400px;width:600px" id ="frame1" title="Iframe Example"></iframe>
+					
+				</div>
+			</nav>
+			
+			<form role="form" id="myForm">
+				<div class="form-group" >
+					 
+					<label for="exampleInputEmail1">
+						Email address
+					</label>
+					<input class="form-control" id="exampleInputEmail1" type="email" >
+				</div>
+				<div class="form-group">
+					 
+					<label for="exampleInputPassword1">
+						Password
+					</label>
+					<input class="form-control" id="exampleInputPassword1" type="password" >
+				</div>
+				<select class="btn btn-primary dropdown-toggle" type="button" id="country" data-toggle="dropdown">test
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+<option value="0">Country</option>
+<option value="1">India</option>
+<option value="2">USA</option>
+<option value="3">UK</option>
+    </ul>
+	</select>
+	<br></br>
+				<div class="form-group">
+					 
+					
+					<input class="form-control-file" id="exampleInputFile" type="file">
+					
+				</div>
+				<div class="checkbox">
+					 
+					<label>
+						<input type="checkbox"> Check me out
+					</label>
+				</div> 
+				<button class="btn btn-primary" id="modal-430250" type="button" href="#modal-container-430250" data-toggle="modal">
+					Submit
+				</button>
+			</form>
+			
+			
+			<div class="modal fade" id="modal-container-430250" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="myModalLabel">
+								Confirmation!
+							</h5> 
+							<button class="close" type="button" data-dismiss="modal">
+								<span aria-hidden="true">×</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Are you sure to submit data?
+						</div>
+						<div class="modal-footer">
+							 
+							<button class="btn btn-primary" type="button" data-dismiss="modal"  onclick="myFunction()">
+								Save changes
+							</button> 
+							
+							
+							<button class="btn btn-secondary" type="button" data-dismiss="modal">
+								Close
+							</button>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+	<script>
+function myFunction() {
+  document.getElementById("myForm").reset();
+  //alert("The form was submitted");
+}
+</script>
+  </body>
+</html>
